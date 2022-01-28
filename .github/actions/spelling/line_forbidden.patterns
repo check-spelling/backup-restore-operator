@@ -1,0 +1,11 @@
+# reject `m_data`
+# \bm_data\b
+
+# Javascript
+\bJavascript\b
+
+# MicroSoft
+\bMicroSoft\b
+
+# Reject duplicate words
+\s(\w{3,})\s\g{-1}\s
